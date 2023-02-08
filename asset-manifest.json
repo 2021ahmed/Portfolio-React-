@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React-/static/css/main.28f04b22.css",
+    "main.js": "/Portfolio-React-/static/js/main.b591c442.js",
+    "static/js/787.b2e1b36e.chunk.js": "/Portfolio-React-/static/js/787.b2e1b36e.chunk.js",
+    "static/media/gawish.jpg": "/Portfolio-React-/static/media/gawish.826d1fb375efd8b64969.jpg",
+    "static/media/testimonial3.png": "/Portfolio-React-/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/work2.jpg": "/Portfolio-React-/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/testimonial2.png": "/Portfolio-React-/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/work4.jpg": "/Portfolio-React-/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work5.jpg": "/Portfolio-React-/static/media/work5.094ec4a2224db8908873.jpg",
+    "static/media/work1.jpg": "/Portfolio-React-/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/Portfolio-React-/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/testimonial1.png": "/Portfolio-React-/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "static/media/John-Cv.pdf": "/Portfolio-React-/static/media/John-Cv.e83747cf513e0b21a7f1.pdf",
+    "index.html": "/Portfolio-React-/index.html",
+    "main.28f04b22.css.map": "/Portfolio-React-/static/css/main.28f04b22.css.map",
+    "main.b591c442.js.map": "/Portfolio-React-/static/js/main.b591c442.js.map",
+    "787.b2e1b36e.chunk.js.map": "/Portfolio-React-/static/js/787.b2e1b36e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28f04b22.css",
+    "static/js/main.b591c442.js"
+  ]
+}
