@@ -1,0 +1,104 @@
+.portfolio__tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.portfolio__tabs button {
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.4rem;
+  background: none;
+}
+.portfolio__tabs .button-active {
+  color: white;
+  background-color: black;
+}
+.portfolio__all-show {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+.portfolio__all-hide {
+  display: none;
+}
+.portfolio__all-data {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+  gap: 3rem;
+}
+.portfolio__design-show {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+  gap: 3rem;
+}
+.portfolio__design-show .box {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.portfolio__design-show .box img {
+  width: 300px;
+  height: 150px;
+  border-radius: 1rem;
+}
+.portfolio__design-hide {
+  display: none;
+}
+/*==================== start style for portfolio alldata====================== */
+.portfolio__all-data .box {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.portfolio__all-data .box .title__project,
+.portfolio__design-show  .title__project
+
+ {
+  padding: 1rem 0rem 0.5rem;
+}
+.portfolio__all-data .box img {
+  width: 300px;
+  height: 150px;
+  border-radius: 1rem;
+}
+/* =================media for section portfolio============================================= */
+@media screen and (max-width: 992px) {
+  .portfolio__all-data {
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio__all-data {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 1rem;
+  }
+  .portfolio__all-data .box img,
+  .portfolio__design-show .box img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .portfolio__all-data {
+    grid-template-columns: repeat(1, 0.8fr);
+  }
+  .portfolio__design-show {
+    grid-template-columns: repeat(1, 0.8fr);
+  }
+}
+@media screen and (max-width: 350px) {
+  .portfolio__tabs {
+    gap: initial;
+  }
+  .portfolio__all-data {
+    grid-template-columns: initial;
+  }
+  .portfolio__design-show {
+    grid-template-columns: initial;
+  }
+}
