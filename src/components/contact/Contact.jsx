@@ -56,9 +56,10 @@ const Contact = () => {
                     </div>
                     <div className="contact__form-layout contact__textarea">
                         <label className="contact__form-label">Project</label>
-                        <textarea name="project"  cols="30" rows="10" className="contact__textarea"
+                        <textarea name="project"  cols="10" rows="1" className="contact__textarea"
                          placeholder="Type your project !"></textarea>                        
                     </div>
+                    <div>
                     <button className="button button--flex">
                     Send Message
                     <svg
@@ -79,6 +80,7 @@ const Contact = () => {
                   ></path>
                 </svg>
                 </button>
+                </div>
                 </form>
             </div>
         </div>

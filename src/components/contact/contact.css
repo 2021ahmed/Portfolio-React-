@@ -55,6 +55,7 @@ transition: 0.5s;
 }
 .contact__container .contact__content-form .contact__form {
   width: 300px;
+
 }
 .contact__container .contact__content-form .contact__form-layout {
     position: relative;
@@ -123,13 +124,26 @@ margin-bottom: 115px;
 }
 @media screen and (max-width:576px){
     .contact__container .contact__content-talk .contact__info {
-        grid-template-columns: 1fr;
 justify-content: center;
 
 
     }
     .contact__container .contact__content-form .contact__form {
-        width: 100%;
+      width: initial;
+    
     }
+    /* .contact__container .contact__content-form .contact__form {
+        width: 100%;
+    } */
+
+}
+@media screen and (max-width:350px){
+  .contact__container .contact__content-talk .contact__info {
+      grid-template-columns: 0.5fr;
+
+
+
+  }
+ 
 
 }
