@@ -53,6 +53,7 @@ const Portfolio = () => {
         </div>
         <div className={port===1?"portfolio__all-show":"portfolio__all-hide"}>
           < Alldata/>
+
         </div>
             {/* web */}
             <div className={port===2?"portfolio__design-show":"portfolio__design-hide"}>

@@ -75,7 +75,9 @@ background-color: var(--text-color);
 transform: translate(5px,-7px);
 
 }
-
+.qualification__content .qualification__data .qualification__line.last{
+height: 0;
+}
 /* media for qualification section */
 @media screen and (max-width:992px){
     .qualification__container{

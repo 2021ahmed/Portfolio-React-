@@ -44,7 +44,7 @@ const Qualification = () => {
                   Port-Said - Faculty of <br/>Information  Technology
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2019 - Present
+                  <i className="uil uil-calendar-alt"></i>2019 - 2023
                 </div>
               </div>
               <div>
@@ -64,10 +64,12 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Web Development</h3>
                 <span className="qualification__subtitle">
-                  Port-Said - University
+                  Institute - I T I
+                  <br/>
+                  Summer Training
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2019 - Present
+                  <i className="uil uil-calendar-alt"></i>2019 - 2023
                 </div>
               </div>
              
@@ -82,7 +84,7 @@ const Qualification = () => {
                   Port-Said - University
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2019 - Present
+                  <i className="uil uil-calendar-alt"></i>2019 - 2023
                 </div>
               </div>
               <div>
@@ -96,7 +98,7 @@ const Qualification = () => {
                 <div></div>
                 <div>
                 <span className="quaification-roundder"></span>
-                  <span className="qualification__line"></span>
+                  <span className="qualification__line last"></span>
                 
               </div>
               <div>
@@ -105,7 +107,7 @@ const Qualification = () => {
                   Port-Said - University
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2019 - Present
+                  <i className="uil uil-calendar-alt"></i>2019 - 2023
                 </div>
               </div>
              
@@ -126,7 +128,7 @@ const Qualification = () => {
               </div>
               <div>
                 <span className="quaification-roundder"></span>
-                  <span className="qualification__line"></span>
+                  <span className="qualification__line "></span>
                 
               </div>
             </div>
@@ -163,7 +165,7 @@ const Qualification = () => {
               </div>
                 <div>
                 <span className="quaification-roundder"></span>
-                  <span className="qualification__line"></span>
+                  <span className="qualification__line last"></span>
                 
               </div>
             </div>
